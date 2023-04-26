@@ -2,11 +2,11 @@ import React,{ useState } from 'react'
 import './App.css'
 import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
-import About from './Components/About'
-import Footer from './Components/Footer'
-import Project from './Components/Project'
-import Skills from './Components/Skills'
-import Contact from './Components/Contact'
+import About from './components/About'
+import Footer from './components/Footer'
+import Project from './components/Project'
+import Skills from './components/Skills'
+import Contact from './components/Contact'
 
 function App() {
 
