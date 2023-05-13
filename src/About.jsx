@@ -21,10 +21,9 @@ const About = () => {
                 Redux, and Bootstrap. I'm also familiar with back-end
                 development such as Node.js and Express.js.
               </p>
-             
               <br />
               <br />
-              <a href="./src/assets/Profile Resume.pdf" download>
+              <a href="./src/assets/Profile-Resume.pdf" download>
                 <button className="btn-primary">Download CV</button>
               </a>
             </div>
