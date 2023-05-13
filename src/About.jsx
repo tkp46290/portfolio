@@ -11,7 +11,7 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                m a recent graduate with a degree in Mechanical Engineering and
+                I'm a recent graduate with a degree in Mechanical Engineering and
                 but I have a passion for web development. I have hands on in
                 ReactJS and I have experience building responsive, user-friendly
                 web applications using this framework. I gained hands-on

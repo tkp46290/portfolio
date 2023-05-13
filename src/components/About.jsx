@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../assets/images/project_person1.svg";
+import aboutImg from "../assets/images/profile.jpg";
 const About = () => {
   // const info = [
   //   { text: "Years experience", count: "04" },
@@ -16,26 +16,21 @@ const About = () => {
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
           <div className="p-2">
             <div className="text-gray-300 my-3">
-              <p className="text-justify leading-7 w-11/12 mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                eos, quam vel quisquam, explicabo sit labore dignissimos optio
-                ratione quibusdam doloribus pariatur consequuntur sint.
-                Reprehenderit cupiditate possimus facere quasi voluptatem?
+              <p className="text-justify text-4xl leading-7 w-11/12 mx-auto">
+              I'm a recent graduate with a degree in Mechanical Engineering and
+                but I have a passion for web development. I have hands on in
+                ReactJS and I have experience building responsive, user-friendly
+                web applications using this framework. I gained hands-on
+                experience in web development through several projects . I'm
+                proficient in HTML, CSS, JavaScript, and I have experience
+                working with various front-end technologies such as ReactJS,
+                Redux, and Bootstrap. I'm also familiar with back-end
+                development such as Node.js and Express.js.
               </p>
-              {/* <div className="flex mt-10 items-center gap-7">
-                {info.map((content) => (
-                  <div key={content.text}>
-                    <h3 className="md:text-4xl text-2xl font-semibold text-white">
-                      {content.count}
-                      <span className="text-cyan-600">+</span>{" "}
-                    </h3>
-                    <span className="md:text-base text-xs">{content.text}</span>
-                  </div>
-                ))}
-              </div> */}
+             
               <br />
               <br />
-              <a href="./src/assets/Code_a_program.pdf" download>
+              <a href="./src/assets/Profile-Resume.pdf" download>
                 <button className="btn-primary">Download CV</button>
               </a>
             </div>

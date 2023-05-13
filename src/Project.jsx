@@ -1,10 +1,9 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import project1 from "../assets/images/project-1.png";
+import project1 from "../assets/images/project-1.jpg";
 import project2 from "../assets/images/project-2.jpg";
 import project3 from "../assets/images/project-3.jpg";
 import project4 from "../assets/images/project-4.jpg";
-import project5 from "../assets/images/project-5.png";
 import project_person from "../assets/images/hireMe.svg";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -14,34 +13,29 @@ const Project = () => {
   const projects = [
     {
       img: project1,
-      name: "Movie App",
-      github_link: "#",
-      live_link: "#",
+      name: "Movie Website",
+      github_link: "https://github.com/tkp46290/Movieflix",
+      live_link: "https://movieflix-drab.vercel.app/",
     },
     {
       img: project2,
-      name: "Job search Web App",
-      github_link: "#",
-      live_link: "#",
+      name: "Youtube Clone",
+      github_link: "https://github.com/tkp46290/youtubeclone",
+      live_link: "https://youtubeclone-tkp46290.vercel.app/login",
     },
     {
       img: project3,
-      name: "Highking",
-      github_link: "#",
-      live_link: "#",
+      name: "Weather website",
+      github_link: "https://github.com/tkp46290/weather-app",
+      live_link: "https://weather-app-red-xi.vercel.app/",
     },
     {
       img: project4,
-      name: "React Nav",
-      github_link: "#",
-      live_link: "#",
+      name: "Todo list",
+      github_link: "https://github.com/tkp46290/Todo-List",
+      live_link: "https://todo-list-a3wh.vercel.app/",
     },
-    {
-      img: project5,
-      name: "Vue Country",
-      github_link: "#",
-      live_link: "#",
-    },
+ 
   ];
   return (
     <section id="projects" className="py-10 text-white">
