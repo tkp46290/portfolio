@@ -3,10 +3,10 @@ import React from "react";
 const Contact = () => {
   const contact_info = [
     { logo: "mail", text: "tarunpal6290@gmail.com" },
-    { logo: "logo-whatsapp", text: "123 456 780" },
+    { logo: "logo-whatsapp", text: "9986865509" },
     {
       logo: "location",
-      text: "demo location",
+      text: "Bangalore",
     },
   ];
   return (

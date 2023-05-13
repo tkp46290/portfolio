@@ -16,7 +16,7 @@ const About = () => {
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
           <div className="p-2">
             <div className="text-gray-300 my-3">
-              <p className="text-justify text-4xl leading-7 w-11/12 mx-auto">
+              <p className="text-justify text-2xl leading-7 w-11/12 mx-auto">
               I'm a recent graduate with a degree in Mechanical Engineering and
                 but I have a passion for web development. I have hands on in
                 ReactJS and I have experience building responsive, user-friendly
